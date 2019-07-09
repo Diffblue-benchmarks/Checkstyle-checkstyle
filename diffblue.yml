@@ -158,3 +158,38 @@ phases:
       # Add constraint that strings are printable
       string-printable: false
 units:
+ - target:
+   - dir: target/classes
+     file: com/puppycrawl/tools/checkstyle/utils/CommonUtil.class
+     sourceDir: src/main/java
+     sourceFile: com/puppycrawl/tools/checkstyle/utils/CommonUtil.java
+   - dir: target/classes
+     file: com/puppycrawl/tools/checkstyle/api/DetailAST.class
+     sourceDir: src/main/java
+     sourceFile: com/puppycrawl/tools/checkstyle/api/DetailAST.java
+ - target:
+   - dir: target/classes
+     file: com/puppycrawl/tools/checkstyle/utils/JavadocUtil.class
+     sourceDir: src/main/java
+     sourceFile: com/puppycrawl/tools/checkstyle/utils/JavadocUtil.java
+   - dir: target/classes
+     file: com/puppycrawl/tools/checkstyle/api/DetailNode.class
+     sourceDir: src/main/java
+     sourceFile: com/puppycrawl/tools/checkstyle/api/DetailNode.java
+   - dir: target/classes
+     file: com/puppycrawl/tools/checkstyle/checks/javadoc/JavadocTags.class
+     sourceDir: src/main/java
+     sourceFile: com/puppycrawl/tools/checkstyle/checks/javadoc/JavadocTags.java
+   - dir: target/classes
+     file: com/puppycrawl/tools/checkstyle/api/TextBlock.class
+     sourceDir: src/main/java
+     sourceFile: com/puppycrawl/tools/checkstyle/api/TextBlock.java
+   - dir: target/classes
+     file: com/puppycrawl/tools/checkstyle/utils/JavadocUtil$JavadocTagType.class
+     sourceDir: src/main/java
+     sourceFile: com/puppycrawl/tools/checkstyle/utils/JavadocUtil.java
+   - dir: target/classes
+     file: com/puppycrawl/tools/checkstyle/api/DetailAST.class
+     sourceDir: src/main/java
+     sourceFile: com/puppycrawl/tools/checkstyle/api/DetailAST.java
+
